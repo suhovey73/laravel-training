@@ -86,7 +86,7 @@ class PostController extends Controller
 
         $post->update($request->all());
 
-        return redirect()->route('post.index')->with('success', 'Запись успешно обновлена')ж
+        return redirect()->route('post.index')->with('success', 'Запись успешно обновлена');
     }
 
     /**
